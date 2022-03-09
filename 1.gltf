@@ -11,7 +11,7 @@
 			"bufferView": 5,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 3568,
+			"count": 4056,
 			"max": [
 				1153.820556640625,
 				129.84385681152344,
@@ -28,13 +28,27 @@
 			"bufferView": 6,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 3568,
+			"count": 4056,
 			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4056,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 8,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4056,
+			"type": "VEC4"
 		}
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 10 02:45:31 2022"
+			"created": "Thu Mar 10 02:48:10 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -47,41 +61,53 @@
 		},
 		{
 			"buffer": 0,
-			"byteLength": 163,
+			"byteLength": 152,
 			"byteOffset": 163
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 326
+			"byteOffset": 315
 		},
 		{
 			"buffer": 0,
-			"byteLength": 163,
-			"byteOffset": 489
+			"byteLength": 161,
+			"byteOffset": 478
 		},
 		{
 			"buffer": 0,
 			"byteLength": 19776,
-			"byteOffset": 652,
+			"byteOffset": 640,
 			"target": 34963
 		},
 		{
 			"buffer": 0,
-			"byteLength": 42816,
-			"byteOffset": 20428,
+			"byteLength": 48672,
+			"byteOffset": 20416,
 			"target": 34962
 		},
 		{
 			"buffer": 0,
-			"byteLength": 42816,
-			"byteOffset": 63244,
+			"byteLength": 48672,
+			"byteOffset": 69088,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32448,
+			"byteOffset": 117760,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64896,
+			"byteOffset": 150208,
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 106060,
+			"byteLength": 215104,
 			"uri": "1.bin"
 		}
 	],
@@ -122,7 +148,7 @@
 			"extras": {
 				"MSFT_sRGBFactors": false
 			},
-			"name": "83",
+			"name": "85",
 			"pbrMetallicRoughness": {
 				"baseColorTexture": {
 					"index": 2
@@ -139,8 +165,10 @@
 			"primitives": [
 				{
 					"attributes": {
+						"COLOR_0": 4,
 						"NORMAL": 2,
-						"POSITION": 1
+						"POSITION": 1,
+						"TEXCOORD_0": 3
 					},
 					"indices": 0,
 					"material": 0,
@@ -170,14 +198,14 @@
 				1.0
 			],
 			"scale": [
-				0.004867183975875378,
-				0.004867183975875378,
-				0.004867183975875378
+				0.0013669583713635802,
+				0.0013669583713635802,
+				0.0013669583713635802
 			],
 			"translation": [
-				-0.339144766330719,
-				-0.0005821838858537376,
-				0.5996021032333374
+				-0.024780862033367157,
+				0.06616141647100449,
+				0.6258544921875
 			]
 		},
 		{
@@ -202,22 +230,22 @@
 	],
 	"textures": [
 		{
-			"name": "texture738",
+			"name": "texture749",
 			"sampler": 0,
 			"source": 0
 		},
 		{
-			"name": "texture739",
+			"name": "texture753",
 			"sampler": 0,
 			"source": 1
 		},
 		{
-			"name": "83_bc",
+			"name": "85_bc",
 			"sampler": 0,
 			"source": 2
 		},
 		{
-			"name": "83_mr",
+			"name": "85_mr",
 			"sampler": 0,
 			"source": 3
 		}
