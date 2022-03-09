@@ -1,0 +1,236 @@
+{
+	"accessors": [
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 25566,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5052,
+			"max": [
+				2.2561769485473633,
+				7.86088228225708,
+				1.7499704360961914
+			],
+			"min": [
+				-2.2601356506347656,
+				-8.089133262634277,
+				-1.7443852424621582
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5052,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5052,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 8,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 5052,
+			"type": "VEC4"
+		}
+	],
+	"asset": {
+		"extras": {
+			"created": "Thu Mar 10 01:39:21 2022"
+		},
+		"generator": "Gestaltor 2022.1.0 Bavette Community",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 163
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 326
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 489
+		},
+		{
+			"buffer": 0,
+			"byteLength": 51132,
+			"byteOffset": 652,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 60624,
+			"byteOffset": 51784,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 60624,
+			"byteOffset": 112408,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40416,
+			"byteOffset": 173032,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 80832,
+			"byteOffset": 213448,
+			"target": 34962
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 294280,
+			"uri": "Без имени.bin"
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_pbrSpecularGlossiness"
+	],
+	"images": [
+		{
+			"bufferView": 0,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 1,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 2,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 3,
+			"mimeType": "image/png"
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"extensions": {
+				"KHR_materials_pbrSpecularGlossiness": {
+					"diffuseTexture": {
+						"index": 0
+					},
+					"specularGlossinessTexture": {
+						"index": 1
+					}
+				}
+			},
+			"extras": {
+				"MSFT_sRGBFactors": false
+			},
+			"name": "66",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 2
+				},
+				"metallicRoughnessTexture": {
+					"index": 3
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_id33",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 4,
+						"NORMAL": 2,
+						"POSITION": 1,
+						"TEXCOORD_0": 3
+					},
+					"indices": 0,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"scale": [
+				0.02730463072657585,
+				0.0273046363145113,
+				0.0273046363145113
+			],
+			"translation": [
+				0.016594363376498222,
+				0.08151734620332718,
+				0.35706827044487
+			]
+		},
+		{
+			"children": [
+				0
+			],
+			"name": "root"
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9985
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				1
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "texture533",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "texture537",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "66_bc",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "66_mr",
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}
