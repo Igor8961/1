@@ -1,14 +1,21 @@
 {
 	"accessors": [
 		{
-			"bufferView": 4,
+			"bufferView": 8,
 			"byteOffset": 0,
 			"componentType": 5123,
 			"count": 25566,
 			"type": "SCALAR"
 		},
 		{
-			"bufferView": 5,
+			"bufferView": 9,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 9888,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 10,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 5052,
@@ -25,21 +32,45 @@
 			"type": "VEC3"
 		},
 		{
-			"bufferView": 6,
+			"bufferView": 11,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3568,
+			"max": [
+				1153.820556640625,
+				129.84385681152344,
+				0.0
+			],
+			"min": [
+				1.1819336414337158,
+				-2.026171922683716,
+				-15.0
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 12,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 5052,
 			"type": "VEC3"
 		},
 		{
-			"bufferView": 7,
+			"bufferView": 13,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3568,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 14,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 5052,
 			"type": "VEC2"
 		},
 		{
-			"bufferView": 8,
+			"bufferView": 15,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 5052,
@@ -48,7 +79,7 @@
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 10 01:39:21 2022"
+			"created": "Thu Mar 10 02:36:07 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -56,59 +87,97 @@
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 163,
+			"byteLength": 21773,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 163
+			"byteOffset": 21773
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21773,
+			"byteOffset": 21936
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21319,
+			"byteOffset": 43709
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 326
+			"byteOffset": 65028
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 489
+			"byteOffset": 65191
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 65354
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 65517
 		},
 		{
 			"buffer": 0,
 			"byteLength": 51132,
-			"byteOffset": 652,
+			"byteOffset": 65680,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19776,
+			"byteOffset": 116812,
 			"target": 34963
 		},
 		{
 			"buffer": 0,
 			"byteLength": 60624,
-			"byteOffset": 51784,
+			"byteOffset": 136588,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 42816,
+			"byteOffset": 197212,
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 60624,
-			"byteOffset": 112408,
+			"byteOffset": 240028,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 42816,
+			"byteOffset": 300652,
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 40416,
-			"byteOffset": 173032,
+			"byteOffset": 343468,
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 80832,
-			"byteOffset": 213448,
+			"byteOffset": 383884,
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 294280,
-			"uri": "Без имени.bin"
+			"byteLength": 464716,
+			"uri": "1.bin"
 		}
 	],
 	"extensionsUsed": [
@@ -130,6 +199,22 @@
 		{
 			"bufferView": 3,
 			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 4,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 5,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 6,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 7,
+			"mimeType": "image/png"
 		}
 	],
 	"materials": [
@@ -148,13 +233,38 @@
 			"extras": {
 				"MSFT_sRGBFactors": false
 			},
-			"name": "66",
+			"name": "73",
 			"pbrMetallicRoughness": {
 				"baseColorTexture": {
 					"index": 2
 				},
 				"metallicRoughnessTexture": {
 					"index": 3
+				}
+			}
+		},
+		{
+			"doubleSided": true,
+			"extensions": {
+				"KHR_materials_pbrSpecularGlossiness": {
+					"diffuseTexture": {
+						"index": 4
+					},
+					"specularGlossinessTexture": {
+						"index": 5
+					}
+				}
+			},
+			"extras": {
+				"MSFT_sRGBFactors": false
+			},
+			"name": "75",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 6
+				},
+				"metallicRoughnessTexture": {
+					"index": 7
 				}
 			}
 		}
@@ -165,13 +275,27 @@
 			"primitives": [
 				{
 					"attributes": {
-						"COLOR_0": 4,
-						"NORMAL": 2,
-						"POSITION": 1,
-						"TEXCOORD_0": 3
+						"COLOR_0": 7,
+						"NORMAL": 4,
+						"POSITION": 2,
+						"TEXCOORD_0": 6
 					},
 					"indices": 0,
 					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_id44",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 5,
+						"POSITION": 3
+					},
+					"indices": 1,
+					"material": 1,
 					"mode": 4
 				}
 			]
@@ -181,19 +305,50 @@
 		{
 			"mesh": 0,
 			"scale": [
-				0.02730463072657585,
-				0.0273046363145113,
-				0.0273046363145113
+				0.11028768867254257,
+				0.11028770357370377,
+				0.11028770357370377
 			],
 			"translation": [
-				0.016594363376498222,
-				0.08151734620332718,
-				0.35706827044487
+				0.23660458624362946,
+				0.7837640047073364,
+				0.2118503302335739
+			]
+		},
+		{
+			"mesh": 1,
+			"translation": [
+				-577.501220703125,
+				-63.908843994140625,
+				7.5
 			]
 		},
 		{
 			"children": [
-				0
+				1
+			],
+			"name": "node_id40",
+			"rotation": [
+				-1.4210858103333793e-14,
+				1.1920928955078125e-07,
+				-1.1920928955078125e-07,
+				1.0
+			],
+			"scale": [
+				0.011683989316225052,
+				0.011683989316225052,
+				0.011683989316225052
+			],
+			"translation": [
+				1.6898674964904785,
+				2.4544105529785156,
+				-0.35172852873802185
+			]
+		},
+		{
+			"children": [
+				0,
+				2
 			],
 			"name": "root"
 		}
@@ -207,30 +362,50 @@
 	"scenes": [
 		{
 			"nodes": [
-				1
+				3
 			]
 		}
 	],
 	"textures": [
 		{
-			"name": "texture533",
+			"name": "texture613",
 			"sampler": 0,
 			"source": 0
 		},
 		{
-			"name": "texture537",
+			"name": "texture617",
 			"sampler": 0,
 			"source": 1
 		},
 		{
-			"name": "66_bc",
+			"name": "73_bc",
 			"sampler": 0,
 			"source": 2
 		},
 		{
-			"name": "66_mr",
+			"name": "73_mr",
 			"sampler": 0,
 			"source": 3
+		},
+		{
+			"name": "texture618",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "texture616",
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"name": "75_bc",
+			"sampler": 0,
+			"source": 6
+		},
+		{
+			"name": "75_mr",
+			"sampler": 0,
+			"source": 7
 		}
 	]
 }
