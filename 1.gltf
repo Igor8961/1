@@ -1,38 +1,14 @@
 {
 	"accessors": [
 		{
-			"bufferView": 8,
-			"byteOffset": 0,
-			"componentType": 5123,
-			"count": 25566,
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 9,
+			"bufferView": 4,
 			"byteOffset": 0,
 			"componentType": 5123,
 			"count": 9888,
 			"type": "SCALAR"
 		},
 		{
-			"bufferView": 10,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 5052,
-			"max": [
-				2.2561769485473633,
-				7.86088228225708,
-				1.7499704360961914
-			],
-			"min": [
-				-2.2601356506347656,
-				-8.089133262634277,
-				-1.7443852424621582
-			],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 11,
+			"bufferView": 5,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 3568,
@@ -49,37 +25,16 @@
 			"type": "VEC3"
 		},
 		{
-			"bufferView": 12,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 5052,
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 13,
+			"bufferView": 6,
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 3568,
 			"type": "VEC3"
-		},
-		{
-			"bufferView": 14,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 5052,
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 15,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 5052,
-			"type": "VEC4"
 		}
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 10 02:42:26 2022"
+			"created": "Thu Mar 10 02:45:31 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -87,96 +42,46 @@
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 21773,
+			"byteLength": 163,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 21773
-		},
-		{
-			"buffer": 0,
-			"byteLength": 21773,
-			"byteOffset": 21936
-		},
-		{
-			"buffer": 0,
-			"byteLength": 21319,
-			"byteOffset": 43709
+			"byteOffset": 163
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 65028
+			"byteOffset": 326
 		},
 		{
 			"buffer": 0,
 			"byteLength": 163,
-			"byteOffset": 65191
-		},
-		{
-			"buffer": 0,
-			"byteLength": 163,
-			"byteOffset": 65354
-		},
-		{
-			"buffer": 0,
-			"byteLength": 163,
-			"byteOffset": 65517
-		},
-		{
-			"buffer": 0,
-			"byteLength": 51132,
-			"byteOffset": 65680,
-			"target": 34963
+			"byteOffset": 489
 		},
 		{
 			"buffer": 0,
 			"byteLength": 19776,
-			"byteOffset": 116812,
+			"byteOffset": 652,
 			"target": 34963
 		},
 		{
 			"buffer": 0,
-			"byteLength": 60624,
-			"byteOffset": 136588,
+			"byteLength": 42816,
+			"byteOffset": 20428,
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 42816,
-			"byteOffset": 197212,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 60624,
-			"byteOffset": 240028,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 42816,
-			"byteOffset": 300652,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 40416,
-			"byteOffset": 343468,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 80832,
-			"byteOffset": 383884,
+			"byteOffset": 63244,
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 464716,
+			"byteLength": 106060,
 			"uri": "1.bin"
 		}
 	],
@@ -199,22 +104,6 @@
 		{
 			"bufferView": 3,
 			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 4,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 5,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 6,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 7,
-			"mimeType": "image/png"
 		}
 	],
 	"materials": [
@@ -233,7 +122,7 @@
 			"extras": {
 				"MSFT_sRGBFactors": false
 			},
-			"name": "73",
+			"name": "83",
 			"pbrMetallicRoughness": {
 				"baseColorTexture": {
 					"index": 2
@@ -242,60 +131,19 @@
 					"index": 3
 				}
 			}
-		},
-		{
-			"doubleSided": true,
-			"extensions": {
-				"KHR_materials_pbrSpecularGlossiness": {
-					"diffuseTexture": {
-						"index": 4
-					},
-					"specularGlossinessTexture": {
-						"index": 5
-					}
-				}
-			},
-			"extras": {
-				"MSFT_sRGBFactors": false
-			},
-			"name": "75",
-			"pbrMetallicRoughness": {
-				"baseColorTexture": {
-					"index": 6
-				},
-				"metallicRoughnessTexture": {
-					"index": 7
-				}
-			}
 		}
 	],
 	"meshes": [
-		{
-			"name": "mesh_id33",
-			"primitives": [
-				{
-					"attributes": {
-						"COLOR_0": 7,
-						"NORMAL": 4,
-						"POSITION": 2,
-						"TEXCOORD_0": 6
-					},
-					"indices": 0,
-					"material": 0,
-					"mode": 4
-				}
-			]
-		},
 		{
 			"name": "mesh_id44",
 			"primitives": [
 				{
 					"attributes": {
-						"NORMAL": 5,
-						"POSITION": 3
+						"NORMAL": 2,
+						"POSITION": 1
 					},
-					"indices": 1,
-					"material": 1,
+					"indices": 0,
+					"material": 0,
 					"mode": 4
 				}
 			]
@@ -304,19 +152,6 @@
 	"nodes": [
 		{
 			"mesh": 0,
-			"scale": [
-				0.11028768867254257,
-				0.11028770357370377,
-				0.11028770357370377
-			],
-			"translation": [
-				0.23660458624362946,
-				0.7837640047073364,
-				0.2118503302335739
-			]
-		},
-		{
-			"mesh": 1,
 			"translation": [
 				-577.501220703125,
 				-63.908843994140625,
@@ -325,30 +160,29 @@
 		},
 		{
 			"children": [
-				1
+				0
 			],
 			"name": "node_id40",
 			"rotation": [
-				-1.4210858103333793e-14,
-				1.1920928955078125e-07,
-				-1.1920928955078125e-07,
+				-0.0,
+				1.1920930376163597e-07,
+				-0.0,
 				1.0
 			],
 			"scale": [
-				0.011683989316225052,
-				0.011683989316225052,
-				0.011683989316225052
+				0.004867183975875378,
+				0.004867183975875378,
+				0.004867183975875378
 			],
 			"translation": [
-				1.6898674964904785,
-				2.4544105529785156,
-				-0.35172852873802185
+				-0.339144766330719,
+				-0.0005821838858537376,
+				0.5996021032333374
 			]
 		},
 		{
 			"children": [
-				0,
-				2
+				1
 			],
 			"name": "root"
 		}
@@ -362,50 +196,30 @@
 	"scenes": [
 		{
 			"nodes": [
-				3
+				2
 			]
 		}
 	],
 	"textures": [
 		{
-			"name": "texture613",
+			"name": "texture738",
 			"sampler": 0,
 			"source": 0
 		},
 		{
-			"name": "texture617",
+			"name": "texture739",
 			"sampler": 0,
 			"source": 1
 		},
 		{
-			"name": "73_bc",
+			"name": "83_bc",
 			"sampler": 0,
 			"source": 2
 		},
 		{
-			"name": "73_mr",
+			"name": "83_mr",
 			"sampler": 0,
 			"source": 3
-		},
-		{
-			"name": "texture618",
-			"sampler": 0,
-			"source": 4
-		},
-		{
-			"name": "texture616",
-			"sampler": 0,
-			"source": 5
-		},
-		{
-			"name": "75_bc",
-			"sampler": 0,
-			"source": 6
-		},
-		{
-			"name": "75_mr",
-			"sampler": 0,
-			"source": 7
 		}
 	]
 }
