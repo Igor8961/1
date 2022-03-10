@@ -1,54 +1,26 @@
 {
 	"accessors": [
 		{
-			"bufferView": 4,
-			"byteOffset": 0,
-			"componentType": 5123,
-			"count": 9888,
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 5,
+			"bufferView": 0,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 4056,
+			"count": 1233186,
 			"max": [
-				1153.820556640625,
-				129.84385681152344,
-				0.0
+				49.68154525756836,
+				130.00001525878906,
+				49.15199279785156
 			],
 			"min": [
-				1.1819336414337158,
-				-2.026171922683716,
-				-15.0
+				-49.68154525756836,
+				0.0,
+				-49.15199279785156
 			],
 			"type": "VEC3"
-		},
-		{
-			"bufferView": 6,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 4056,
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 7,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 4056,
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 8,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 4056,
-			"type": "VEC4"
 		}
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 10 02:48:10 2022"
+			"created": "Thu Mar 10 23:30:37 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -56,121 +28,48 @@
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 163,
-			"byteOffset": 0
-		},
-		{
-			"buffer": 0,
-			"byteLength": 152,
-			"byteOffset": 163
-		},
-		{
-			"buffer": 0,
-			"byteLength": 163,
-			"byteOffset": 315
-		},
-		{
-			"buffer": 0,
-			"byteLength": 161,
-			"byteOffset": 478
-		},
-		{
-			"buffer": 0,
-			"byteLength": 19776,
-			"byteOffset": 640,
-			"target": 34963
-		},
-		{
-			"buffer": 0,
-			"byteLength": 48672,
-			"byteOffset": 20416,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 48672,
-			"byteOffset": 69088,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 32448,
-			"byteOffset": 117760,
-			"target": 34962
-		},
-		{
-			"buffer": 0,
-			"byteLength": 64896,
-			"byteOffset": 150208,
+			"byteLength": 14798232,
+			"byteOffset": 0,
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 215104,
+			"byteLength": 14798232,
 			"uri": "1.bin"
 		}
 	],
 	"extensionsUsed": [
 		"KHR_materials_pbrSpecularGlossiness"
 	],
-	"images": [
-		{
-			"bufferView": 0,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 1,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 2,
-			"mimeType": "image/png"
-		},
-		{
-			"bufferView": 3,
-			"mimeType": "image/png"
-		}
-	],
 	"materials": [
 		{
 			"doubleSided": true,
 			"extensions": {
 				"KHR_materials_pbrSpecularGlossiness": {
-					"diffuseTexture": {
-						"index": 0
-					},
-					"specularGlossinessTexture": {
-						"index": 1
-					}
+					"diffuseFactor": [
+						0.2195197343826294,
+						0.2195197343826294,
+						0.2195197343826294,
+						1.0
+					],
+					"specularFactor": [
+						0.0,
+						0.0,
+						0.0
+					]
 				}
 			},
-			"extras": {
-				"MSFT_sRGBFactors": false
-			},
-			"name": "85",
-			"pbrMetallicRoughness": {
-				"baseColorTexture": {
-					"index": 2
-				},
-				"metallicRoughnessTexture": {
-					"index": 3
-				}
-			}
+			"pbrMetallicRoughness": {}
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_id44",
 			"primitives": [
 				{
 					"attributes": {
-						"COLOR_0": 4,
-						"NORMAL": 2,
-						"POSITION": 1,
-						"TEXCOORD_0": 3
+						"POSITION": 0
 					},
-					"indices": 0,
 					"material": 0,
 					"mode": 4
 				}
@@ -180,74 +79,15 @@
 	"nodes": [
 		{
 			"mesh": 0,
-			"translation": [
-				-577.501220703125,
-				-63.908843994140625,
-				7.5
-			]
-		},
-		{
-			"children": [
-				0
-			],
-			"name": "node_id40",
-			"rotation": [
-				-0.0,
-				1.1920930376163597e-07,
-				-0.0,
-				1.0
-			],
-			"scale": [
-				0.0013669583713635802,
-				0.0013669583713635802,
-				0.0013669583713635802
-			],
-			"translation": [
-				-0.024780862033367157,
-				0.06616141647100449,
-				0.6258544921875
-			]
-		},
-		{
-			"children": [
-				1
-			],
-			"name": "root"
-		}
-	],
-	"samplers": [
-		{
-			"minFilter": 9985
+			"name": "Asset3DLoader.sceneRoot"
 		}
 	],
 	"scene": 0,
 	"scenes": [
 		{
 			"nodes": [
-				2
+				0
 			]
-		}
-	],
-	"textures": [
-		{
-			"name": "texture749",
-			"sampler": 0,
-			"source": 0
-		},
-		{
-			"name": "texture753",
-			"sampler": 0,
-			"source": 1
-		},
-		{
-			"name": "85_bc",
-			"sampler": 0,
-			"source": 2
-		},
-		{
-			"name": "85_mr",
-			"sampler": 0,
-			"source": 3
 		}
 	]
 }
