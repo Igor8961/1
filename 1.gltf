@@ -48,7 +48,7 @@
 	],
 	"asset": {
 		"extras": {
-			"created": "Fri Mar 11 00:13:07 2022"
+			"created": "Fri Mar 11 00:17:05 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -148,7 +148,7 @@
 			"extras": {
 				"MSFT_sRGBFactors": false
 			},
-			"name": "69",
+			"name": "71",
 			"pbrMetallicRoughness": {
 				"baseColorTexture": {
 					"index": 2
@@ -181,8 +181,8 @@
 		{
 			"mesh": 0,
 			"translation": [
-				-48.441101074217734,
-				20.972775757312775,
+				-48.44110107421875,
+				79.84211802482605,
 				7.5
 			]
 		},
@@ -192,9 +192,9 @@
 			],
 			"name": "node_id48",
 			"rotation": [
-				-1.4210859797399687e-14,
+				-0.0,
 				1.1920930376163597e-07,
-				-1.1920930376163597e-07,
+				-0.0,
 				1.0
 			],
 			"scale": [
@@ -203,9 +203,9 @@
 				0.0036207244265824556
 			],
 			"translation": [
-				0.07172300666570663,
-				-0.014713684096932411,
-				0.23221875727176666
+				0.08683127909898758,
+				-0.23515845835208893,
+				0.03410351648926735
 			]
 		},
 		{
@@ -230,22 +230,22 @@
 	],
 	"textures": [
 		{
-			"name": "texture627",
+			"name": "texture638",
 			"sampler": 0,
 			"source": 0
 		},
 		{
-			"name": "texture631",
+			"name": "texture642",
 			"sampler": 0,
 			"source": 1
 		},
 		{
-			"name": "69_bc",
+			"name": "71_bc",
 			"sampler": 0,
 			"source": 2
 		},
 		{
-			"name": "69_mr",
+			"name": "71_mr",
 			"sampler": 0,
 			"source": 3
 		}
