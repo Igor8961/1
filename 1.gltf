@@ -1,26 +1,54 @@
 {
 	"accessors": [
 		{
-			"bufferView": 0,
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1512,
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 744,
+			"count": 642,
 			"max": [
-				83.28575134277344,
-				77.15835571289063,
-				22.0
-			],
-			"min": [
-				-83.08610534667969,
-				-79.40037536621094,
+				96.44578552246094,
+				32.66812515258789,
 				0.0
 			],
+			"min": [
+				0.43640628457069397,
+				-15.024845123291016,
+				-15.0
+			],
 			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 642,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 642,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 8,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 642,
+			"type": "VEC4"
 		}
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 10 23:36:03 2022"
+			"created": "Fri Mar 11 00:07:38 2022"
 		},
 		"generator": "Gestaltor 2022.1.0 Bavette Community",
 		"version": "2.0"
@@ -28,48 +56,121 @@
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 8928,
-			"byteOffset": 0,
+			"byteLength": 163,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 163
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 326
+		},
+		{
+			"buffer": 0,
+			"byteLength": 163,
+			"byteOffset": 489
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3024,
+			"byteOffset": 652,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7704,
+			"byteOffset": 3676,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7704,
+			"byteOffset": 11380,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5136,
+			"byteOffset": 19084,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10272,
+			"byteOffset": 24220,
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 8928,
+			"byteLength": 34492,
 			"uri": "1.bin"
 		}
 	],
 	"extensionsUsed": [
 		"KHR_materials_pbrSpecularGlossiness"
 	],
+	"images": [
+		{
+			"bufferView": 0,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 1,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 2,
+			"mimeType": "image/png"
+		},
+		{
+			"bufferView": 3,
+			"mimeType": "image/png"
+		}
+	],
 	"materials": [
 		{
 			"doubleSided": true,
 			"extensions": {
 				"KHR_materials_pbrSpecularGlossiness": {
-					"diffuseFactor": [
-						0.2195197343826294,
-						0.2195197343826294,
-						0.2195197343826294,
-						1.0
-					],
-					"specularFactor": [
-						0.0,
-						0.0,
-						0.0
-					]
+					"diffuseTexture": {
+						"index": 0
+					},
+					"specularGlossinessTexture": {
+						"index": 1
+					}
 				}
 			},
-			"pbrMetallicRoughness": {}
+			"extras": {
+				"MSFT_sRGBFactors": false
+			},
+			"name": "69",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 2
+				},
+				"metallicRoughnessTexture": {
+					"index": 3
+				}
+			}
 		}
 	],
 	"meshes": [
 		{
+			"name": "mesh_id51",
 			"primitives": [
 				{
 					"attributes": {
-						"POSITION": 0
+						"COLOR_0": 4,
+						"NORMAL": 2,
+						"POSITION": 1,
+						"TEXCOORD_0": 3
 					},
+					"indices": 0,
 					"material": 0,
 					"mode": 4
 				}
@@ -79,31 +180,74 @@
 	"nodes": [
 		{
 			"mesh": 0,
-			"name": "3MFMeshParent_0",
+			"translation": [
+				-48.44110107421875,
+				-8.821640014648438,
+				7.5
+			]
+		},
+		{
+			"children": [
+				0
+			],
+			"name": "node_id48",
 			"rotation": [
-				0.7071067690849304,
-				0.0,
-				0.0,
-				-0.7071067690849304
+				-1.4210859797399687e-14,
+				1.1920930376163597e-07,
+				-1.1920930376163597e-07,
+				1.0
 			],
 			"scale": [
-				0.5,
-				0.5,
-				0.75
+				0.0036207244265824556,
+				0.0036207244265824556,
+				0.0036207244265824556
 			],
 			"translation": [
-				89.9976577758789,
-				0.0,
-				-116.76481628417969
+				0.07172300666570663,
+				-0.014713684096932411,
+				0.23221875727176666
 			]
+		},
+		{
+			"children": [
+				1
+			],
+			"name": "root"
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9985
 		}
 	],
 	"scene": 0,
 	"scenes": [
 		{
 			"nodes": [
-				0
+				2
 			]
+		}
+	],
+	"textures": [
+		{
+			"name": "texture627",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "texture631",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "69_bc",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "69_mr",
+			"sampler": 0,
+			"source": 3
 		}
 	]
 }
